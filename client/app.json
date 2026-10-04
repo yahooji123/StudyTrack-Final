@@ -6,20 +6,21 @@
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "scheme": "studytrack",
-
     "icon": "./assets/icon.png",
-
     "android": {
       "package": "com.studytrack.app"
     },
-
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.studytrack.app"
     },
-
     "plugins": [
       "expo-status-bar"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6ac5bf3c-85cb-49c0-b17b-b82e341e3ffe"
+      }
+    }
   }
 }
