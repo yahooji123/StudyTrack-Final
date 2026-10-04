@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "StudyTrack",
+    "slug": "studytrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "studytrack",
+
+    "icon": "./assets/icon.png",
+
+    "android": {
+      "package": "com.studytrack.app"
+    },
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.studytrack.app"
+    },
+
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
